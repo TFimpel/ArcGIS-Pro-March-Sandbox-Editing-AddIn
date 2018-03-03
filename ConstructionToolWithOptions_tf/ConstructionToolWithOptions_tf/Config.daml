@@ -1,0 +1,60 @@
+﻿<ArcGIS defaultAssembly="ConstructionToolWithOptions_tf.dll" defaultNamespace="ConstructionToolWithOptions_tf" xmlns="http://schemas.esri.com/DADF/Registry" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.esri.com/DADF/Registry file:///C:/Program%20Files/ArcGIS/Pro/bin/ArcGIS.Desktop.Framework.xsd">
+  <AddInInfo id="{4f23bb01-d1da-4d03-945a-27e17cdf5b03}" version="1.0" desktopVersion="2.1.10257">
+    <Name>ConstructionToolWithOptions_tf</Name>
+    <Description>ConstructionToolWithOptions_tf description</Description>
+    <Image>Images\AddinDesktop32.png</Image>
+    <Author>fimpe</Author>
+    <Company>Acme</Company>
+    <Date>2/24/2018 10:20:45 PM, 2018</Date>
+    <Subject>Framework</Subject>
+    <!-- Note subject can be one or more of these topics:
+                    Content, Framework, Editing, Geodatabase, Geometry, Geoprocessing, Layouts, Map Authoring, Map Exploration -->
+  </AddInInfo>
+  <modules>
+    <insertModule id="ConstructionToolWithOptions_tf_Module" className="Module1" autoLoad="false" caption="Module1">
+      <!-- uncomment to have the control hosted on a separate tab-->
+      <tabs>
+        <!--<tab id="ConstructionToolWithOptions_tf_Tab1" caption="New Tab">
+          <group refID="ConstructionToolWithOptions_tf_Group1"/>
+        </tab>-->
+      </tabs>
+      <groups>
+        <!-- comment this out if you have no controls on the Addin tab to avoid
+              an empty group-->
+        <group id="ConstructionToolWithOptions_tf_Group1" caption="Group 1" appearsOnAddInTab="true">
+          <!-- host controls within groups -->
+        </group>
+      </groups>
+      <controls>
+        <!-- add your controls here -->
+        <tool id="ConstructionToolWithOptions_tf_BufferedLineTool" categoryRefID="esri_editing_construction_polygon" caption="Buffered Line" className="BufferedLineTool" loadOnClick="true" smallImage="Images\donutEditButton.png" largeImage="Images\donutEditButton.png">
+          <!--smallImage="Images\GenericButtonRed16.png" largeImage="Images\GenericButtonRed32.png"> -->
+          <!--note: use esri_editing_construction_polyline,  esri_editing_construction_polygon for categoryRefID as needed-->
+          <tooltip heading="Buffered Line">Create a polygon with a fixed buffer.<disabledText /></tooltip>
+          <content toolOptionsID="ConstructionToolWithOptions_tf_BufferedLineToolOptions" />
+        </tool>
+        <tool id="ConstructionToolWithOptions_tf_multipointer" categoryRefID="esri_editing_construction_point" caption="multipointer" className="multipointer" loadOnClick="true" smallImage="Images\flower.png" largeImage="Images\flower.png">
+          <!--note: use esri_editing_construction_polyline,  esri_editing_construction_polygon for categoryRefID as needed-->
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+          <content toolOptionsID="ConstructionToolWithOptions_tf_EmbeddableControl1" />
+        </tool>
+        <tool id="ConstructionToolWithOptions_tf_ConstructionTool1" categoryRefID="esri_editing_construction_polyline" caption="ConstructionTool 1" className="ConstructionTool1" loadOnClick="true" smallImage="Images\connectingPolygons.png" largeImage="Images\connectingPolygons.png">
+          <!--note: use esri_editing_construction_polyline,  esri_editing_construction_polygon for categoryRefID as needed-->
+          <tooltip heading="Tooltip Heading">Tooltip text<disabledText /></tooltip>
+        </tool>
+      </controls>
+    </insertModule>
+  </modules>
+  <categories>
+    <updateCategory refID="esri_editing_tool_options">
+      <insertComponent id="ConstructionToolWithOptions_tf_BufferedLineToolOptions" className="BufferedLineToolOptionsViewModel">
+        <content className="BufferedLineToolOptionsView" />
+      </insertComponent>
+    </updateCategory>
+    <updateCategory refID="esri_editing_tool_options">
+      <insertComponent id="ConstructionToolWithOptions_tf_EmbeddableControl1" className="EmbeddableControl1ViewModel">
+        <content className="EmbeddableControl1View" />
+      </insertComponent>
+    </updateCategory>
+  </categories>
+</ArcGIS>

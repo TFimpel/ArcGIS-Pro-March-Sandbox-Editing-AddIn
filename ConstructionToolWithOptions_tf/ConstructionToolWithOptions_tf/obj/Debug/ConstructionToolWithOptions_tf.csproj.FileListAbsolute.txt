@@ -1,0 +1,13 @@
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\bin\Debug\ConstructionToolWithOptions_tf.dll
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\bin\Debug\ConstructionToolWithOptions_tf.pdb
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\BufferedLineToolOptions.g.cs
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\ConstructionToolWithOptions_tf_MarkupCompile.cache
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\ConstructionToolWithOptions_tf_MarkupCompile.lref
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\BufferedLineToolOptions.baml
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\ConstructionToolWithOptions_tf.g.resources
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\ConstructionToolWithOptions_tf.csproj.CoreCompileInputs.cache
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\ConstructionToolWithOptions_tf.dll
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\ConstructionToolWithOptions_tf.pdb
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\ConstructionToolWithOptions_tf.csprojResolveAssemblyReference.cache
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\EmbeddableControl1.g.cs
+C:\Users\fimpe\Documents\Visual Studio 2017\Projects\ConstructionToolWithOptions_tf\ConstructionToolWithOptions_tf\obj\Debug\EmbeddableControl1.baml
