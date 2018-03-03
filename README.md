@@ -1,1 +1,1 @@
-# ArcGIS-Pro-March-Sandbox-Editng-AddIn
+# ArcGIS-Pro-March-Sandbox-Editing-AddIn
